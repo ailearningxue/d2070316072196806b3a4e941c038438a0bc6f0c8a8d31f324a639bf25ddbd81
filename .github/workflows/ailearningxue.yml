@@ -1,34 +1,29 @@
 name: ailearningxue
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
-
+    - cron: '47 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ailearningxue
         env:
-          fnqm7: ${{ secrets.fnqm7 }}
+          yd16376: ${{ secrets.yd16376 }}
         run: |
-          echo $fnqm7 | jq -r .a1 | /bin/bash
-          echo $a875 | jq -r .yypi2729 | /bin/bash
-          echo $twxsm4 | jq -r .awmyp3412 | /bin/bash
-          echo $e47 | jq -r .xh033 | /bin/bash
-          echo $wb296 | jq -r .b2 | /bin/bash
-          echo $fksbb60 | jq -r .gu797 | /bin/bash
-          echo $npbm89 | jq -r .xx13 | /bin/bash
-          echo $doo7074 | jq -r .jpts97386 | /bin/bash
-          echo $alqw44681 | jq -r .umu544 | /bin/bash
-          echo $uhp84406 | jq -r .m00 | /bin/bash
-          echo $xf3 | jq -r .obz641 | /bin/bash
-          echo $facdn0169 | jq -r .qkif56 | /bin/bash
-          echo $xtbr253 | jq -r .turkz36891 | /bin/bash
-          echo $mhtj08 | jq -r .d97 | /bin/bash
-          echo $ed77766 | jq -r .pnuq63882 | /bin/bash
-          echo $au8 | jq -r .rma96305 | /bin/bash
+          echo $yd16376 | jq -r .umklp43760 | /bin/bash
+          echo $xvopv0 | jq -r .vrzlk6 | /bin/bash
+          echo $u94 | jq -r .yqee26437 | /bin/bash
+          echo $afc03135 | jq -r .qbsxw48303 | /bin/bash
+          echo $moroz3 | jq -r .rk57188 | /bin/bash
+          echo $bx911 | jq -r .wz4 | /bin/bash
+          echo $gesh143 | jq -r .hpgc9 | /bin/bash
+          echo $hmb8 | jq -r .wk5 | /bin/bash
+          echo $uyt67989 | jq -r .ylme6 | /bin/bash
+          echo $aer932 | jq -r .ivb5864 | /bin/bash
+          echo $qptf1291 | jq -r .ro38773 | /bin/bash
+          echo $e91347 | jq -r .rvvu61537 | /bin/bash
+          echo $lnh09 | jq -r .aqm508 | /bin/bash
+          echo $lt64 | jq -r .zmu360 | /bin/bash
 
